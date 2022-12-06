@@ -1,0 +1,36 @@
+.body{
+    text-align: center;
+    background-color: rgb(238, 221, 255);
+    font-family: cursive;
+    height: 100vh;
+    padding-top: 20px;
+}
+.board{
+    background-color: rgb(197, 130, 255);
+}
+ 
+.table{
+    width: 60%;
+}
+.timer{
+    width: 150px;
+    margin: auto;
+    background-color: rgb(242, 174, 255);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 7px;
+}
+ .cell{
+    border: 2px solid black;
+    width: 15px;
+    height: 15px;
+ }
+.cell:hover{
+    cursor: pointer;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
